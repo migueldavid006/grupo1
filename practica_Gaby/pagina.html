@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="pagina.css">
+    <title>Surbir Video</title>
+</head>
+<body>
+    <header>
+        <div class="caja1">
+            <section class="s1">
+                <img class="avatar" src="./imagen1.jpg" alt="">
+            </section>
+            <section class="s2">
+                <h1 class="mi">MI PRIMERA WEB</h1>
+                <h3 class="subir">Subir Video</h3>
+            </section>
+            <section class="s3">
+                <img class="avatar1" src="./imagen.JPG" alt="">
+            </section>
+        </div>
+    </header>
+    <hr>
+    <main>
+        <img class="imagen2" src="./imagen2.jpg" alt="">
+        <h1 class="su">SUBIR VIDEO</h1>
+        <h3>ARCHIVO</h3>
+        <form>
+            <input class="input" type="text" placeholder="">
+            <input class="boton" type="button" value="Cargar Archivo">
+            <p>*El archivo a subir tiene que tener máximo 250 mb </p>
+            <label><input class="CB" type="checkbox" checked>Acepto terminos y condiciones</label>
+        </form>
+        <br>
+        <div>
+            <section>Categoria
+                <form>
+                    <label><input class="c1" type="checkbox" checked>Música</label>
+                    <label><input class="c2" type="checkbox" checked>Arte</label>
+                    <label><input class="c3" type="checkbox" checked>Humor</label>
+                    <label><input class="c4" type="checkbox" checked>Historias</label>
+                    <label><input class="c5" type="checkbox" checked>Otros</label>
+                </form>
+            </section>
+            <section>#Etiquetas
+                <form>
+                    <input type="text" name="#has1" value="#hastang 1"><br>
+                    <input type="text" name="#has2" value="#hastang 2"><br>
+                    <input type="text" name="#has3" value="#hastang 3"><br>
+                    <input type="text" name="#has4" value="#hastang 4"><br>
+                </form>
+            </section>
+            <section>Descripción
+                <form method="post" action="tratamiento.php">
+                    <p>
+                        <textarea name="bla" id="bla" rows="5" cols="30">bla bla bla ......</textarea>
+                    </p>
+                </form>
+            </section>
+        </div>
+        <br>
+        <label><input class="CB" type="checkbox" checked>Deseo subirlo en el día:</label>
+        <label><input class="date" type="date" name="date"> </label>
+        <br>
+        <input class="sv" type="button" value="SUBIR VIDEO">
+    </main>
+    <footer>
+        <nav>
+            <span>Contacto</span>
+            <span>Correo Electrónico</span>
+            <span>Ubicacion </span>
+            <span><img class="ubicacion" src="./ubicacion.jpg" alt=""></span>
+        </nav>
+    </footer>    
+</body>
+</html>
