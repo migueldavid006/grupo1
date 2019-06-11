@@ -17,13 +17,14 @@ header{
     /* position: absolute; */
     float: left;
 }
+
 .logoCodigo{
     width: 150px;
     /* position: absolute; */
     float: right;
 }
 h1{
-    /* padding-top: 13px ; */
+    padding-top: 13px ;
 }
 h2{
     color: rgb(44, 132, 204);
@@ -31,14 +32,6 @@ h2{
 main{
     height: 80%;
     border: 1px solid;
-}
-.table{
-
-}
-.cont1{
-    width: 100%;
-    height: 20%;
-    /* float: left;  */
 }
 .td{
     height: 100px;
