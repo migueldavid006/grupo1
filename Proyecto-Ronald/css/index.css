@@ -30,8 +30,7 @@ header{
 }
 
 main{
-    height: 73%;
- 
+    height: 70%;
     border-top: 2px solid black;
    
 }
@@ -44,7 +43,7 @@ ul{
     list-style-type: none;
   
 }
-.nav, .footer{
+.nav{
     display: inline-block;
     
 }
@@ -53,18 +52,18 @@ ul{
    border-right: 1px solid black;
    padding: 0px 40px;
 }
-.footer a{
+/* .footer a{
     text-decoration: none;
     padding: 0px 20px;
- }
-.nav, .footer a:visited{
+ } */
+.nav {
     color: black;
 }
 .nav a:hover{
     background-color: black;
     color: white;
 }
-nav, footer{
+nav {
     text-align: center;
 }
 
@@ -113,15 +112,7 @@ nav, footer{
     color: red;
     
 }
-footer{
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 7%;
-    /* border: 1px solid white; */
-    border-top: 2px solid black;
-    background-color: white;
-}
+
 
 #mapa{
     width: 75px;
@@ -166,3 +157,21 @@ footer{
   input[type="radio"]:checked ~ label {
     color: black;
   }
+  footer{
+    width: 100%;
+    height: 10%;
+    /* border-top: 1px solid; */
+    /* margin: 0 auto; */
+}
+nav.menu{
+    width: 100%;
+}
+nav.menu ul{
+    list-style: none;
+}
+nav.menu ul li{
+    float: left;
+    width: 15%;
+    text-align: center;
+    padding-top: 30px;
+}
