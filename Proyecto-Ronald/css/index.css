@@ -46,7 +46,11 @@ header{
    
    }
 main{
+<<<<<<< HEAD
     height: 73%;
+=======
+    height: 70%;
+>>>>>>> d33dde375605f52bc6edda782718297927a09bef
     border-top: 2px solid black;
 }
 nav{
@@ -57,26 +61,38 @@ nav{
 ul{
     list-style-type: none;
 }
+<<<<<<< HEAD
 .nav, .footer{
     display: inline-block;    
+=======
+.nav{
+    display: inline-block;
+    
+>>>>>>> d33dde375605f52bc6edda782718297927a09bef
 }
 .nav a{
    text-decoration: none;
    border-right: 1px solid black;
    padding: 0px 40px;
 }
-.footer a{
+/* .footer a{
     text-decoration: none;
     padding: 0px 20px;
+<<<<<<< HEAD
  }
 .nav, .footer a:visited{
     color:rgb(75, 78, 80);
+=======
+ } */
+.nav {
+    color: black;
+>>>>>>> d33dde375605f52bc6edda782718297927a09bef
 }
 .nav a:hover{
     background-color: rgb(226, 27, 27);
     color: white;
 }
-nav, footer{
+nav {
     text-align: center;
 }
 .cuerpo{
@@ -126,6 +142,7 @@ nav, footer{
 #popular{
     color: red;
 }
+<<<<<<< HEAD
 footer{
     position: fixed;
     bottom: 0;
@@ -137,6 +154,10 @@ footer{
     /* color: rgb(75, 78, 80);  */
     font-size: 14;
 }
+=======
+
+
+>>>>>>> d33dde375605f52bc6edda782718297927a09bef
 #mapa{
     width: 105px;
     height: 100px;
@@ -164,3 +185,21 @@ label:hover,
 input[type="radio"]:checked ~ label {
     color: black;
   }
+  footer{
+    width: 100%;
+    height: 10%;
+    /* border-top: 1px solid; */
+    /* margin: 0 auto; */
+}
+nav.menu{
+    width: 100%;
+}
+nav.menu ul{
+    list-style: none;
+}
+nav.menu ul li{
+    float: left;
+    width: 15%;
+    text-align: center;
+    padding-top: 30px;
+}
