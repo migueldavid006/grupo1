@@ -8,40 +8,90 @@ body{
 html, body{
     height: 100%;
 }
-#contenedor{
+    #contenedor{
     width: 900px;
     margin: auto;
-    /* background: black;
-    color: white */
+    background: black;
+    color: white;
     /* border: 1px solid black; */
-    font-family: 'Roboto', sans-serif;
+     font-family: 'Roboto', sans-serif;
 }
-header{
+#boxtitulo{
+    float: right;
+    text-align: left;
+    margin-top: 36px;
+}
+#boxlogo{
+    width: 50%;
+    float: left;
+    top: 39px;
+}
+#boxlogo img{
+    width: 172px;
+
+}
+#boxlogo2{
+    width: 19%;
+    float: right;
+    padding-right: 47px;
+    padding-top: 15px
+}
+.clear{
+    clear: both;
+}
+/* #header{
+    height: 15%;
+    text-align: left;
+    background-color:red;
+}
+.img1{
+    height: 15%;
+    width: 10%;
+    background-color: #3A74F0;
+}
+#img2{
+    width: 225px;
+    height: 125px;
+    position: absolute;
+    top: 0;
+    right: 2%;
+}
+h1{
+    position: relative;
+    float: left;
+    padding-left: 20%;
+}
+h2{
+    float: left;
+    position: relative; */
+}
+/* header{
     width: 900px;
     height: 90px;
     /* background-color: tomato; */
 }
-#header1{
+/* #header1{
     width: 100px;
-    height: 90px;
+    height: 90px; */
     /* background-color: aqua; */
-    position: relative;
-    float: left;
+    /* position: relative;
+    float: left; */
     
 }
-#header2{
+/* #header2{
     width: 600px;
-    height: 90px;
+    height: 90px; */
     /* background-color: crimson; */
-    position: relative;
+    /* position: relative;
     float: left;
+    text-align: center; */
 }
-#header3{
+/* #header3{
     width: 200px;
     height: 90px;
     /* background-color: darkgoldenrod; */
-    position: relative;
-    float: left;
+    /* position: relative;
+    float: left; */ */ */
 
 }
 main{
