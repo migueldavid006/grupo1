@@ -296,35 +296,27 @@ ul{
 li{
     display: inline-block;
 }
+
+
 footer{
-    position: fixed;
-    bottom: 0;
     width: 100%;
-    height: 7%;
-    /* border: 1px solid white; */
-    border-top: 2px solid black;
-    background-color: white;
-    .nav, .footer{
-        display: inline-block;
-        
-    }
-    .nav a{
-       text-decoration: none;
-       border-right: 1px solid black;
-       padding: 0px 40px;
-    }
-    .footer a{
-        text-decoration: none;
-        padding: 0px 20px;
-     }
-    .nav, .footer a:visited{
-        color: black;
-    }
-    .nav a:hover{
-        background-color: black;
-        color: white;
-    }
-    nav, footer{
-        text-align: center;
-    }
-    
+    height: 10%;
+    border-top: 1px solid;
+    /* margin: 0 auto; */
+}
+nav.menu{
+    width: 100%;
+}
+nav.menu ul{
+    list-style: none;
+}
+nav.menu ul li{
+    float: left;
+    width: 15%;
+    text-align: center;
+    padding-top: 10px;
+}
+.mapa{
+    position: relative; 
+    top: -53px;
+}
