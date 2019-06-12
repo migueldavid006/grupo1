@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+body{
+    background-image: url('https://previews.123rf.com/images/hakkiarslan/hakkiarslan1510/hakkiarslan151000065/47326470-estilo-grunge-abstracto-fondos-coloridos-splash-acuarela-imagen-de-fondo-ilustraci%C3%B3n-.jpg')
+}
+#papa{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.carta{
+    width: 300px;
+    height: 500px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+
+}
+.arriba, .abajo{
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 50%;
+}
+.abajo{
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.abajo p{
+    margin-top: 15px;
+    font-size: 16px;
+    text-align: justify;
+}
+.arriba{
+    background-image: url('http://lorempixel.com/300/300/food')
+}
+input{
+    margin: 10px 55px 0 55px;;
+    border: 0;
+    width: 150px;
+    height: 30px;
+
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #2222ff;
+    color: white;
+    font-family: Arial;
+
+}
