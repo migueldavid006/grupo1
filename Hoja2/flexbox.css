@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+#papa{
+    height: 100%;
+    display: flex;
+    /* Van a cambiar de posion respecto a donde se va a poner los "hijos" 
+    justify-content predeterminadamente va a ser flex-star,flex-end*/
+    /* justify-content:space-evenly; */
+    /* flex-direction: row, row-reverse,column,column-reverse */
+    /* TENER CUIDADO CON LA DISPOSICION DE LOS ELEMENTOS */
+    flex-direction: row;
+    /* me alinea de manera vertical mis elementos */
+    align-items: flex-start;
+    flex-wrap:wrap;
+    /* flex-warp Permite ocupar una segunda fila o columna con el valor wrap */
+}
+.hijo{
+    border: steelblue 5px solid;
+    background-color: darkblue;
+    width: 300px;
+    height: 300px;
+    color: white;
+    font-size: 30px;
+    flex-shrink: 0;
+    /* flex-shrink admite 2 valores, 1 para que se encoja y 0 para que mantenga su tamaño */
+    flex-grow:1;
+    /* Esteblece una relacion de tamaño entre los elementos */
+
+}
+#mayor{
+    flex-grow: 5;
+    flex-basis: 500px;
+    /* permite dar tamaño a los contenedores */
+    /* flex-grow, flex-shrink, flex basis */
+    flex:1 0 50%;
+    
+}

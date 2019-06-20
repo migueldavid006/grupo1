@@ -6,6 +6,7 @@
 html, body{
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    
     /* font-family: 'Poppins', sans-serif; */
     font-size: 13px;
     /* background-color: #000;
@@ -46,11 +47,7 @@ header{
    
    }
 main{
-<<<<<<< HEAD
     height: 73%;
-=======
-    height: 70%;
->>>>>>> d33dde375605f52bc6edda782718297927a09bef
     border-top: 2px solid black;
 }
 nav{
@@ -61,38 +58,22 @@ nav{
 ul{
     list-style-type: none;
 }
-<<<<<<< HEAD
-.nav, .footer{
-    display: inline-block;    
-=======
 .nav{
-    display: inline-block;
-    
->>>>>>> d33dde375605f52bc6edda782718297927a09bef
+    display: inline-block;    
 }
 .nav a{
    text-decoration: none;
    border-right: 1px solid black;
    padding: 0px 40px;
 }
-/* .footer a{
-    text-decoration: none;
-    padding: 0px 20px;
-<<<<<<< HEAD
- }
-.nav, .footer a:visited{
+.nav{
     color:rgb(75, 78, 80);
-=======
- } */
-.nav {
-    color: black;
->>>>>>> d33dde375605f52bc6edda782718297927a09bef
 }
 .nav a:hover{
     background-color: rgb(226, 27, 27);
     color: white;
 }
-nav {
+nav{
     text-align: center;
 }
 .cuerpo{
@@ -142,24 +123,9 @@ nav {
 #popular{
     color: red;
 }
-<<<<<<< HEAD
-footer{
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 7%;
-    /* border: 1px solid white; */
-    border-top: 2px solid black;
-    background-color: white;
-    /* color: rgb(75, 78, 80);  */
-    font-size: 14;
-}
-=======
 
-
->>>>>>> d33dde375605f52bc6edda782718297927a09bef
 #mapa{
-    width: 105px;
+    width: 110px;
     height: 100px;
     position: absolute;
     top: 0;
@@ -185,7 +151,7 @@ label:hover,
 input[type="radio"]:checked ~ label {
     color: black;
   }
-  footer{
+footer{
     width: 100%;
     height: 10%;
     /* border-top: 1px solid; */
@@ -202,4 +168,8 @@ nav.menu ul li{
     width: 15%;
     text-align: center;
     padding-top: 30px;
+}
+.mapa{
+    position: relative; 
+    top: -53px;
 }
